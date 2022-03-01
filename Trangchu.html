@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA_Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial=1.0">
+        <title>TRANG CHỦ APTECH</title>
+        <!--Import từ thư viện boostrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/Trangchu.css">
+</head>
+<body>
+    <!--Boostrap là thư viện chứa 1 tập các lớp css được tạo sẵn -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="images/imagesDaotao/logo-1.png" class="img-fluid" alt="...">
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Trangchu.html" target="_self"
+                    >Trang chủ</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    HANOI-APTECH
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="Gioithieu.html" target="_self">Giới thiệu</a></li>
+                    <li><a class="dropdown-item" href="#">Cơ sở vật chất</a></li>
+                    <li><a class="dropdown-item" href="#">Giảng viên</a></li>
+                    <li><a class="dropdown-item" href="#">Hỏi đáp</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Chương trình đào tạo
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Lập Trình Viên Quốc Tế ADSE</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="Daotao.html" target="_self"
+                        >Lập Trình Web FullStack</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Các khóa ngắn hạn</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Liên thông</a
+                  >
+                </li>
+  
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Tin tức
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Tin về CNTT</a></li>
+                    <li><a class="dropdown-item" href="#">Lịch thi</a></li>
+                    <li><a class="dropdown-item" href="#">Lịch tuyển sinh</a></li>
+                  </ul>
+                </li>
+  
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Tuyển dụng
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Tin tuyển dụng</a></li>
+                    <li><a class="dropdown-item" href="#">Góc nghề nghiệp</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <section id="slider" class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/imageTrangchu/slider1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/imageTrangchu/slider2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/imageTrangchu/slider3.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/imageTrangchu/slider4.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src=images/imageTrangchu/slider5.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro" class="container-fluid mt-5">
+      <h3 class="text-center">
+        20 NĂM KINH NGHIỆM ĐÀO TẠO LẬP TRÌNH
+      </h3>
+      <h4 class="text-center h5">
+        LÀ ĐƠN VỊ SỐ 1 VỀ ĐÀO TẠO CNTT TẠI VIỆT NAM
+      </h4>
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 90%;">
+            <img src="images/imageTrangchu/intro1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Hanoi Aptech có 20 năm kinh nghiệm đào tạo lập trình và các lĩnh vực trong ngành CNTT. Chương trình học chuẩn Aptech Quốc Tế với phương pháp dạy hiện đai, tập trung thực hành, làm dự án thực tế.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 90%;">
+            <img src="images/imageTrangchu/intro2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Giảng viên giàu nhiều kinh nghiệm làm việc tại các công ty lớn về CNTT và đang giảng dạy tại các trường Đại Học. Học viên được bảo hành 100% học phí, miễn phí tham gia các lớp dự thính.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 90%;">
+            <img src="images/imageTrangchu/intro3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Bằng Aptech được công nhận trên 50 Quốc Gia. Hanoi Aptech cam kết 100% có việc làm đúng ngành nghề. Kết thúc khóa học, học viên có thể chọn liên thông ĐH hoặc du học Quốc Tế.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="content2">
+      <div class="grid wide">
+          <div class="row">
+              <div class="col pc-6">
+                  <div class="grid">
+                      <div class="row">
+                          <div class="col pc-10">
+                              <div class="conent2-col-left">
+                                  <div style="margin-bottom: 20px;">
+                                      <h2>BỨT PHÁ SỰ NGHIỆP CHO NĂM 2022</h2>
+                                  </div>
+                                  <div class="content2-button">
+                                      <a href="">
+                                          <span>HỌC BỔNG 25.000.000 VND</span>
+                                      </a>
+                                  </div>
+                                  <div class="form">
+                                      <div class="form-row">
+                                          <input type="text" placeholder="Họ và Tên">
+                                      </div>
+                                      <div class="form-row">
+                                          <input type="text" placeholder="Email">
+                                      </div>
+                                      <div class="form-row">
+                                          <input type="text" placeholder="Số điện thoại">
+                                      </div>
+                                      <div class="form-row">
+                                          <input type="text" placeholder="Trình độ">
+                                      </div>
+                                      <div class="form-row">
+                                          <textarea placeholder="Lời nhắn" name="" id="" cols="30" rows="10"></textarea>
+                                      </div>
+                                      <div class="form-row">
+                                          <input class="submit" type="submit" value="Gửi Đăng Ký">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col pc-6">
+                  <div class="content2-col-right">
+                      <img src="images/imageTrangchu/content2.png" alt="">
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="content2-down grid wide">
+          <div class="row">
+              <div class="col pc-3">
+                  <div class="content2-border">
+                  </div>
+                  <div class="content2-down">
+                      <span class="left">20</span>
+                      <span class="right">Năm</span>
+                  </div>
+                  <p>KINH NGHIỆM</p>
+              </div>
+              <div class="col pc-3">
+                  <div class="content2-border">
+                  </div>
+                  <div class="content2-down">
+                      <span class="left">40</span>
+                      <span class="right">+</span>
+                  </div>
+                  <p>QUỐC GIA</p>
+              </div>
+              <div class="col pc-3">
+                  <div class="content2-border">
+                  </div>
+                  <div class="content2-down">
+                      <span class="left">100</span>
+                      <span class="right">%</span>
+                  </div>
+                  <p>CÓ VIỆC LÀM</p>
+              </div>
+              <div class="col pc-3">
+                  <div class="content2-border">
+                  </div>
+                  <div class="content2-down">
+                      <span class="left">10</span>
+                      <span class="right">Nghìn</span>
+                  </div>
+                  <p>HỌC VIÊN</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="content3">
+      <div class="grid wide">
+          <div class="row">
+              <div class="col pc-4">
+                  <div class="content3-left">
+                      <p class="content3-left-about1">
+                          TẬP ĐOÀN APTECH
+                      </p>
+                      <p class="content3-left-about2">
+                          20 NĂM TIÊN PHONG ĐÀO TẠO LẬP
+                         <h3 class="text-center h6">
+                           TRÌNH TẠI VIỆT NAM </h3>
+                      </p>
+                  </div>
+              </div>
+              <div class="col pc-8">
+                  <div class="content3-right">
+                      <p class="content3-about3">
+                          “We don’t keep up with technology. We stay ahead of it – Chúng tôi không chạy theo công nghệ. Chúng tôi đón đầu công nghệ!”
+                      </p>
+                      <p style="text-align: center;"><button>THAM GIA KHÓA HỌC</button></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="content4">
+      <div class="grid wide">
+          <div class="row">
+              <div class="col pc-6">
+                  <div class="content4-left">
+                      <video controls style="width: 100%;" src="images/imageTrangchu/content4.mp4"></video>
+                  </div>
+              </div>
+
+              <div style="padding-left: 50px;" class="col pc-6">
+                  <div class="content4-right">
+                      <p class="content4-about">LẬP TRÌNH ĐỂ THAY ĐỔI TƯƠNG LAI</p>
+                      <div style="display: flex;" class="content4-row">
+                          <div class="content4-row-left">
+                          </div>
+                          <div class="content4-row-right">
+                              <h3 style="margin-bottom: 20px;">
+                                  PHÁT TRIỂN TƯ DUY SÁNG TẠO</h3>
+                              <p style="font-size: 16px; font-weight: 400; line-height: 25px  ;">Lập trình giúp bạn phát huy tối đa tư duy logic của bản thân và giúp bạn nhạy bén trong việc giải quyết vấn đề.</p>
+                          </div>
+                      </div>
+                      <div style="display: flex;" class="content4-row">
+                          <div class="content4-row-left">
+                          </div>
+                          <div class="content4-row-right">
+                              <h3 style="margin-bottom: 20px;">
+                                  PHÁT TRIỂN TƯ DUY SÁNG TẠO</h3>
+                              <p style="font-size: 16px; font-weight: 400; line-height: 25px  ;">Lập trình giúp bạn phát huy tối đa tư duy logic của bản thân và giúp bạn nhạy bén trong việc giải quyết vấn đề.</p>
+                          </div>
+                      </div>
+                      <div style="display: flex;" class="content4-row">
+                          <div class="content4-row-left">
+                          </div>
+                          <div class="content4-row-right">
+                              <h3 style="margin-bottom: 20px;">
+                                  PHÁT TRIỂN TƯ DUY SÁNG TẠO</h3>
+                              <p style="font-size: 16px; font-weight: 400; line-height: 25px  ;">Lập trình giúp bạn phát huy tối đa tư duy logic của bản thân và giúp bạn nhạy bén trong việc giải quyết vấn đề.</p>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <div style="display: flex" class=" content5 ">
+      <div class="content5-about ">
+          <p class="content5-about1 ">Bạn có đam mê với nghề lập trình</p>
+          <p class="content5-about2 ">NHƯNG KHÔNG BIẾT BẮT ĐẦU TỪ ĐÂU?</p>
+          <div class="button">
+              <button>Nhận tư vấn lộ trình học phù hợp nhất vơi bạn</button>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="content6">
+      <div class="grid wide">
+          <p class="content6-about">LÝ DO BẠN NÊN HỌC LẬP TRÌNH TẠI HANOI APTECH</p>
+      </div>
+      <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+          <p style="width: 200px; height: 3px; background-color: white;"></p>
+      </div>
+      <div class="grid wide">
+          <div class="row">
+              <div class="col pc-6">
+                  <div class="content6-left">
+                      <div class="grid">
+                          <div style="display: flex;" class="content6-main">
+                              <div class="content6-main-left">
+                                  <img src="images/imageTrangchu/content6.svg" alt="">
+                              </div>
+                              <div class="content6-main-right">
+                                  <p class="main-about1">
+                                      SỐ 1 VỀ ĐÀO TẠO CNTT TẠI VN
+                                  </p>
+                                  <p class="main-about2">
+                                      Aptech tư hào 17 năm liên tiếp đạt danh hiệu Đơn vị đào tạo số 1 về CNTT tại Việt Nam. Phát triển chất lượng giáo dục trên hơn 40 Quốc Gia.
+                                  </p>
+                              </div>
+                          </div>
+                          <div style="display: flex;" class="content6-main">
+                              <div class="content6-main-left">
+                                  <img src="images/imageTrangchu/content6-img2.svg" alt="">
+                              </div>
+                              <div class="content6-main-right">
+                                  <p class="main-about1">
+                                      20 NĂM KINH NGHIỆM ĐÀO TẠO
+                                  </p>
+                                  <p class="main-about2">
+                                      Được thành lập từ năm 2001, Hanoi - Aptech đã có 20 năm kinh nghiệm trong đào tạo chất lượng về Lập trình và các lĩnh vực trong CNTT.
+                                  </p>
+                              </div>
+                          </div>
+                          <div style="display: flex;" class="content6-main">
+                              <div class="content6-main-left">
+                                  <img src="images/imageTrangchu/content6-img3.svg" alt="">
+                              </div>
+                              <div class="content6-main-right">
+                                  <p class="main-about1">
+                                      CHƯƠNG TRÌNH HỌC TOÀN DIỆN
+                                  </p>
+                                  <p class="main-about2">
+                                      Chương trình chuẩn Aptech Quốc Tế. Luôn cập nhập công nghệ mới nhất, kết hợp lý thuyết và trải nghiệm thực hành.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col pc-6">
+                  <div class="content6-left">
+                      <div class="grid">
+                          <div style="display: flex;" class="content6-main">
+                              <div class="content6-main-left">
+                                  <img src="images/imageTrangchu/content6-img4.svg" alt="">
+                              </div>
+                              <div class="content6-main-right">
+                                  <p class="main-about1">
+                                      BẰNG CẤP QUỐC TẾ
+                                  </p>
+                                  <p class="main-about2">
+                                      Aptech tư hào 17 năm liên tiếp đạt danh hiệu Đơn vị đào tạo số 1 về CNTT tại Việt Nam. Phát triển chất lượng giáo dục trên hơn 40 Quốc Gia.
+                                  </p>
+                              </div>
+                          </div>
+                          <div style="display: flex;" class="content6-main">
+                              <div class="content6-main-left">
+                                  <img src="images/imageTrangchu/content6-img5.svg" alt="">
+                              </div>
+                              <div class="content6-main-right">
+                                  <p class="main-about1">
+                                      CAM KẾT 100% CÓ VIỆC LÀM
+                                  </p>
+                                  <p class="main-about2">
+                                      Hanoi Aptech có nhiều doanh nghiệp trong CNTT là đối tác, vì vậy học viên được tuyển dụng ngay trong quá trình học với mức lương từ 8 triệu.
+                                  </p>
+                              </div>
+                          </div>
+                          <div style="display: flex;" class="content6-main">
+                              <div class="content6-main-left">
+                                  <img src="images/imageTrangchu/content6-img6.svg" alt="">
+                              </div>
+                              <div class="content6-main-right">
+                                  <p class="main-about1">
+                                      GIẢNG VIÊN NHIỀU KINH NGHIỆM
+                                  </p>
+                                  <p class="main-about2">
+                                      Giảng viên giàu kinh nghiệm, trình độ chuyên môn cao và tham gia chương trình đào tạo chuyên môn của Aptech.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row button">
+              <div>
+                  <button>NHẬN TƯ VẤN</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="content7">
+      <div class=" grid wide">
+          <p class="content7-about">
+              TIN TỨC HANOI APTECH
+          </p>
+          <div class="row">
+              <div class="col pc-3">
+                  <div class="content7-col">
+                      <img src="images/imageTrangchu/content7-img1.jpg" alt="">
+                      <div class="meta-list">
+                          <span>
+                          <i class="ti-calendar"></i>
+                          13/04/2021</span>
+                          <br>
+
+                          <span>
+                          <i class="ti-files"></i>
+                          TIN TỨC |</span>
+                          <span>TIN VỀ CNTT</span>
+                      </div>
+                      <p style="padding:  0 ;">Aptech hợp tác triển khai chương trình chất lượng cao cùng Đại học Thủy Lợi</p>
+                      <div class="button">
+                          <button>Đọc thêm...</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col pc-3">
+                  <div class="content7-col">
+                      <img src="images/imageTrangchu/content7-img2.jpg" alt="">
+                      <div class="meta-list">
+                          <span>
+                          <i class="ti-calendar"></i>
+                          13/04/2021</span>
+                          <br>
+
+                          <span>
+                          <i class="ti-files"></i>
+                          TIN TỨC |</span>
+                          <span>TIN VỀ CNTT</span>
+                      </div>
+                      <p style="padding:  0 20px;">CHÀO XUÂN 2022 – RINH LÌ XÌ SIÊU XỊN CÙNG APTECH
+                      </p>
+                      <div class="button">
+                          <button>Đọc thêm...</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col pc-3">
+                  <div class="content7-col">
+                      <img src="images/imageTrangchu/content7-img3.png" alt="">
+                      <div class="meta-list">
+                          <span>
+                          <i class="ti-calendar"></i>
+                          13/04/2021</span>
+                          <br>
+
+                          <span>
+                          <i class="ti-files"></i>
+                          TIN TỨC |</span>
+                          <span>TIN VỀ CNTT</span>
+                      </div>
+                      <p style="padding:  0 20px;">Cơ hội lấy Bằng Anh Quốc lĩnh vực CNTT trong tầm tay bạn!</p>
+                      <div class="button">
+                          <button>Đọc thêm...</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col pc-3">
+                  <div class="content7-col">
+                      <img src="images/imageTrangchu/content7-img4.jpg" alt="">
+                      <div class="meta-list">
+                          <span>
+                          <i class="ti-calendar"></i>
+                          13/04/2021</span>
+                          <br>
+
+                          <span>
+                          <i class="ti-files"></i>
+                          TIN TỨC |</span>
+                          <span>TIN VỀ CNTT</span>
+                      </div>
+                      <p style="padding:  0 20px;">Tiếng anh chuyên ngành Công Nghệ Thông Tin có quan trọng không?</p>
+                      <div class="button">
+                          <button>Đọc thêm...</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="content8">
+      <h2 class="content8-about">ĐỐI TÁC CỦA HANOI - APTECH</h2>
+      <div class="slider">
+
+          <div class="grid wide">
+              <div class="row">
+                  <div class="slider-show-content8">
+
+                      <i class="ti-angle-left"></i>
+                      <div class="img shift-left">
+
+                          <img src="images/imageTrangchu/content8-1.png" alt="">
+                      </div>
+                      <div class="img">
+                          <img src="images/imageTrangchu/content8-2.png" alt="">
+                      </div>
+                      <div class="img">
+                          <img src="images/imageTrangchu/content8-3.jpg" alt="">
+                      </div>
+                      <div class="img">
+                          <img src="images/imageTrangchu/content8-4.png" alt="">
+                      </div>
+                      <div class="img">
+                          <img src="images/imageTrangchu/content8-5.svg" alt="">
+                      </div>
+                      <div class="img">
+                          <img src="images/imageTrangchu/content8-6.png" alt="">
+                      </div>
+                      <div class="img">
+                          <img src="images/imageTrangchu/content8-7.png" alt="">
+                      </div>
+                      <div class="img">
+                        <img src="images/imageTrangchu/content8-8.png" alt="">
+                    </div>
+                      <i class="ti-angle-right"></i>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <footer style="height: 490px;background-color: #2F319E; padding: 70px 0px 50px; display: flex; justify-content: space-around;">
+    <div class="div-1">
+        <h2 style="color: white;">KHÓA HỌC SẮP KHAI GIẢNG</h2>
+        <a style="text-decoration: none; color: white;" href="#"><i style="padding-right: 5px; color: white;" class="fas fa-caret-right"></i><b>Lập trình viên Quốc Tế</b></a>
+        <a style="text-decoration: none; color: white;" href="#"><i style="padding-right: 5px; color: white;" class="fas fa-caret-right"></i><b>Lập trình Web Full-Stack</b></a>
+        <a style="text-decoration: none; color: white;" href="#"><i style="padding-right: 5px; color: white;" class="fas fa-caret-right"></i><b>Khóa học Lập trình Java</b></a>
+        <a style="text-decoration: none; color: white;" href="#"><i style="padding-right: 5px; color: white;" class="fas fa-caret-right"></i><b>Khóa học Lập trình C#</b></a>
+    </div>
+    <div class="div-2" style="width: 500px; padding: 0px 30px 0px 50px;">
+        <h2 style="color: white;">LIÊN HỆ</h2>
+        <a style="text-decoration: none; color: white;" href="#"><b>Địa chỉ: Tầng 1, Tòa nhà C5, Đại học Thủy Lợi, 175 Tây Sơn, Trung Liệt, Đống Đa, Hà Nội</b></a>
+        <a style="text-decoration: none; color: white;" href="#"><b>Tel: (024) 3563 7511</b></a>
+        <a style="text-decoration: none; color: white;" href="#"><b>Hotline: 038 2020 858</b></a>
+        <a style="text-decoration: none; color: white;" href="#"><b>Mail: info@aptech.vn</b></a>
+    </div>
+    <div class="div-3" style="padding-left: 30px;">
+        <h2 style="color: white;">ĐĂNG KÝ TƯ VẤN</h2>
+        <form action="#" style="margin: 40px 0px;">
+            <input type="text" value placeholder="Họ và Tên">
+            <input type="text" value placeholder="Email">
+            <input type="text" value placeholder="Số điện thoại">
+            <input type="text" value placeholder="Trình độ">
+            <button style="background-color: #EDB017; width: 262px;height: 40px;padding: 10px; border-radius: 5px; border: 0px;">
+                <a style="text-decoration: none; color: black; margin: 0px 0px;" href="#"><b>GỬI ĐĂNG KÝ</b></a>
+            </button>
+        </form>
+    </div>
+</footer>
+
+     <!--Import thư viện JS Boostrap -->   
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+</html>
